@@ -1,0 +1,233 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Developer CV
+% LaTeX Class
+% Version 2.0 (12/10/23)
+%
+% This class originates from:
+% http://www.LaTeXTemplates.com
+%
+% Authors:
+% Omar Roldan
+% Based on a template by  Jan Vorisek (jan@vorisek.me)
+% Based on a template by Jan Küster (info@jankuester.com)
+% Modified for LaTeX Templates by Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[9pt]{developercv} % Default font size, values from 8-12pt are recommended
+\usepackage{multicol}
+\setlength{\columnsep}{0mm}
+%----------------------------------------------------------------------------------------
+\usepackage{lipsum}  
+
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.5\textwidth} 
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	\vspace{5pt}
+	{ \fontsize{16}{20} \textcolor{black}{\textbf{\MakeUppercase{Napatsiri Phetsri}}}} % First name
+	
+	\vspace{8pt}
+	
+	{\Large Third year computer engineer student \\ at Chiang Mai University} % Career or current job title
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.21\textwidth} % 20% of the page width for the first row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+	\icon{Globe}{11}{\href{https://medium.com/@napatsiri_p}{medium/Napatsiri P}}\\ 
+    \icon{Phone}{11}{094 490 1345}\\
+    \icon{MapMarker}{11}{Chiangmai, Thailand}\\
+	
+\end{minipage}
+\begin{minipage}[t]{0.27\textwidth} % 27% of the page width for the second row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	\icon{Envelope}{11}{\href{mailto:napatsiri_p@cmu.ac.th}{napatsiri\_p@cmu.ac.th}}\\	
+    \icon{Github}{11}{\href{https://github.com/napatsiri}{github.com/napatsiri}}\\
+    \icon{LinkedinSquare}{11}{\href{https://www.linkedin.com/in/napatsiri-phetsri-8a8baa28a/}{linkedin/Napatsiri Phetsri}}\\    
+    
+\end{minipage}
+
+
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION, SKILLS AND TECHNOLOGIES
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.46\textwidth}
+\vspace{ -10 pt}
+    \cvsect{Summary}
+	\vspace{ -7 pt}
+ 
+    %Dummy text
+	I have a desire to learn how to do real work. and are seriously looking for internship opportunities My expertise lies in front-end develop work. And now I'm keen to expand my skills in software systems development. I have a high level of responsibility coupled with a knack for learning quickly. I am looking for an environment where I can grow together. By devoting my skills and enthusiasm.
+\end{minipage}
+\hfill % Whitespace between
+\begin{minipage}[t]{0.465\textwidth}
+    \cvsect{Skills}
+    \vspace{-6pt}
+    
+    \begin{minipage}[t]{0.2\textwidth}
+        \textbf{Languages:}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.7\textwidth}
+      Java, SQL, Python, JavaScript, HTML, C++, CSS  
+    \end{minipage}
+    \vspace{4mm}
+    
+    \begin{minipage}[t]{0.2\textwidth}
+        \textbf{Technologies:}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.7\textwidth}
+      React , Vea , Docker , Laravel
+    \end{minipage}
+    \vspace{4mm}
+
+      \begin{minipage}[t]{0.2\textwidth}
+        \textbf{Languages:}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.7\textwidth}
+      B2 English level by AUA
+    \end{minipage}
+    
+\end{minipage}
+
+
+%----------------------------------------------------------------------------------------
+%	CERTIFICATION
+%----------------------------------------------------------------------------------------
+\vspace{ 5 pt}
+\cvsect{CERTIFICATION}
+\begin{entrylist}
+        \entry
+        {2022}
+        {CPE1st Step Digital Playground by IEEE}
+        {}
+        {This project enables the creation of inventions focused on interconnecting diverse electrical circuits, either for practical applications or as educational toys catering to children residing in remote areas. It aims to facilitate learning about electrical connections while fostering creativity.}
+        \entry
+        {2023}
+        {Thailand Cyber Top Talent 2023 by NSAC}
+        {}
+        {I participated in a cybersecurity competition in Thailand to enhance my skills in flag identification across diverse problem sets spanning various competition systems. These challenges encompassed systems, software, internet security, forensics, and more within the cybersecurity domain.}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	Experience
+%----------------------------------------------------------------------------------------
+\vspace{-10pt}
+\cvsect{Experience}
+\begin{entrylist}
+    \entry
+        {2023}
+        {Gogo Borad Camp}
+        {}
+        {As a staff member, I aid in a coding-centric camp where participants create IoT systems by writing and drag-and-dropping code into Gogoborad. This streamlined approach fosters students' innovation and project development.}
+    \entry
+        {Present}
+        {Start up}
+        {}
+        {As the Chief Operating Officer of a startup specializing in comprehensive tourism promotion, my responsibilities include researching vital information, executing assigned tasks efficiently, and establishing systematic workflows for task delegation.}
+    \entry
+        {Present}
+        {Teacher Assistant}
+        {}
+        {As a Teaching Assistant for GAME APPRECIATION, I support students by addressing their queries and conduct thorough evaluations of their work based on specified evaluation criteria.}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	Projects
+%----------------------------------------------------------------------------------------
+\cvsect{EDUCATIONAL PROJECTS}
+\begin{entrylist}
+    \entry
+		{2021}
+		{Scratch Program}
+		{}
+		{%Dummy text 
+      Using Scratch, a block-based coding platform, the game is about overcoming challenges by clearing obstacles and engaging in battles with enemies. The visual design will be vibrant and user-friendly, with various functionalities to ensure an engaging experience. Players will navigate through levels by strategically removing obstacles while encountering enemies to defeat. This game aims to be both entertaining and easy to play within the Scratch environment.}
+    \entry
+		{2021}
+		{Little Library}
+		{}
+		{%Dummy text 
+        Using C++ programming, this simulation library system offers seamless functions for book search, borrowing, returning, and reserving. Users can easily search for books by title, author, genre, or ISBN. Borrowing and returning books are streamlined processes, updating book statuses promptly. Additionally, the system allows users to reserve books, receiving notifications upon availability. Designed for user convenience, it efficiently manages library tasks.}
+    \entry
+		{2022}
+		{Circuit Game}
+		{}
+		{%Dummy text 
+        Creating toys by connecting electrical circuits is a fun activity that improves children's memory and concentration. Our goal is to provide toys created through this practice. To promote intellectual development among children These toys are designed to be given away. It offers an engaging way for children to learn while playing. Promote better memory and increase the ability to concentrate.}
+    \entry
+		{2022}
+		{UPBEAT}
+		{}
+		{%Dummy text 
+        UPBEAT, a turn-based web game, challenges players to build cities while tactically sabotaging their opponent's constructions. The gameplay centers on constructing a vibrant cityscape. For the frontend, we employ React.js, JavaScript, and CSS, ensuring an engaging visual interface. Java with the Spring framework powers the backend, enabling seamless game mechanics and interactions. This game offers an enjoyable experience where players strategically build and disrupt to outwit their opponents.}
+    \entry
+		{2022}
+		{Automatic Air-purify}
+		{}
+		{%Dummy text 
+        By creating a Home Assistant system utilizing Docker, we've tackled the PM2.5 problem by automating air purifiers in classroom. This smart setup, incorporating ESP32 with light sensors, intelligently activates or deactivates purifiers based on room occupancy. It's a simple yet effective solution ensuring clean air by automatically managing purifier usage when rooms are in use.}
+            \entry
+		{2023}
+		{Luxury Restaurant}
+		{}
+		{%Dummy text 
+         simulated information system for a restaurant, packed with versatile features. This project kicks off by sketching out ER diagrams to structure the database. Then, using PHP and Laravel, we'll actualize these designs, creating functional models. This system will encompass various functionalities to streamline restaurant operations, from managing orders to handling inventory.}
+            \entry
+		{2023}
+		{Computer Architecture}
+		{}
+		{%Dummy text 
+        Creating a program for Computer Architecture in the Java language to be able to process the assembly into a language that the computer can understand, This includes building a simulator to mimic system operations. Additionally,  a multiplication program as part of this project. aiming to create a comprehensive tool for assembly translation, system simulation, and arithmetic operations, all within the Java framework.}
+            \entry
+		{Present}
+		{CPE Coures review}
+		{}
+		{%Dummy text 
+        Developing a website that is suitable for students who are studying subjects that meet the faculty requirements to fulfill the required credits. The platform has a comprehensive database of topics. along with detailed information We aim to provide valuable insights by leveraging the information provided by former students and conducting detailed analysis. This website serves as a hub for essential subject information. Assist students in planning and completing all required credits smoothly.}
+            \entry
+		{Present}
+		{Automation of local road information analysis}
+		{}
+		{%Dummy text 
+        Road data analysis system from platform data and data from government agencies to process and summarize information such as checkpoints, speed detectors, accidents, road closures, and traffic situations. It is displayed on an online map to provide real-time information to users. and can send notifications when important events occur It is the use of technology to increase efficiency in responding to road situations while effectively reducing risks and increasing safety for road users.}
+            \entry
+		{Present}
+		{Computer Vision}
+		{}
+		{%Dummy text 
+        Waiting for assignment}
+            \entry
+		{Present}
+		{Blockchain}
+		{}
+		{%Dummy text 
+        Waiting for assignment}
+        \entry
+		{Present}
+		{Data Mining}
+		{}
+		{%Dummy text 
+        Waiting for assignment}
+            
+\end{entrylist}
+
+\end{document}
